@@ -55,5 +55,5 @@ app.use('/', index);
 app.use('/users', users);
 
 app.listen(PORT, function(){
-	console.log('Server is running on',PORT);
+	console.log('Server is running on PORT ',PORT);
 });
